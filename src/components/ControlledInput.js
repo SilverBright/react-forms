@@ -8,11 +8,7 @@ class ControlledInput extends React.Component {
     value: '',
   }
  
-  handleChange = event => {
-    this.setState({
-      value: event.target.value,
-    });
-  }
+
 
   handleSubmit = event => {
     event.preventDefault()
